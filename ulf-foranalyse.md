@@ -88,7 +88,7 @@ Ovenstående to eksempler viser udfordringen med at konvertere fra
 `www.ulfiaarhus.dk`-data til `www.aakb.dk`-data.
 
 
-Nedenstående er en (redigeret*) udgave af to forskellige begivenheder fra
+Nedenstående er to forskellige begivenheder fra
 ulf-apiet, med providerid 934 (Aarhus Bibliotekerne), som vi har en forståelse
 af er det data som angår ITK Dev.
 
@@ -149,9 +149,6 @@ det formål feltet er tiltænkt.
 ```
 
 Disse er umulige at omsætte til begivenheder på `www.aakb.dk` da der ikke
-
-*\* Jeg tillod mig at slette irrelevante dele af begivenhederne fordi de var
-lange*
 
 ## Vores indtryk af opgaven efter snak med Mikkel Gammelgaard
 
