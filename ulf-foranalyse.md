@@ -30,6 +30,73 @@ Alt i alt 307 timer.
 | 100 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål og har **høj usikkerhed**: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? |
 | 100 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data, **høj usikkerhed** |
 
+### Eksempler på ustruktureret data
+
+Nedenstående er en (redigeret*) udgave af to forskellige begivenheder fra
+ulf-apiet, med providerid 934 (Aarhus Bibliotekerne), som vi har en forståelse
+af er det data som angår ITK Dev.
+
+I nedenstående data er der ikke datoer for de to events. I det ene eksempel
+(8064) kan man gætte at det foregår d. 04.06.2026, i det andet eksempel (8002)
+kan man konkludere det er 2 timer i tidsrummet 06.11.2025-26.03.2026, men der er
+ikke konkrete datoer tilgængeligt. Datoerne fremgår af feltet
+`field_registration_description`, men ikke på en måde som ville være trivielt at
+formalisere, og det er jo, som det fremgår af navnet og indhold på feltet, ikke
+det formål feltet er tiltænkt.
+
+```json
+  {
+        "id": "8002",
+        "label": "AI Dilemmaspil",
+        "field_all_year": false,
+        "field_description_of_duration": null,
+        "field_description_of_period": null,
+        "field_description_of_price": null,
+        "field_duration": "2",
+        "field_duration_unit_taxonomy": "timer",
+        "field_registration_description": "<p>Tilmelding på bibliotekets hjemmeside:</p><p>06/11/2025 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2025-11-06\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p><p>13/11/2025 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2025-11-13\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p><p>20/11/2025 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2025-11-20\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p><p>05/03/2026 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2026-03-05\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p><p>12/03/2026 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2026-03-12\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p><p>19/03/2026 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2026-03-19\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p><p>26/03/2026 <a href=\u0022https://www.aakb.dk/hovedbiblioteket/arrangementer/skole/ai-dilemmaspil/2026-03-26\u0022>AI Dilemmaspil | Aarhus Bibliotekerne</a></p>",
+
+        "field_period": {
+          "type": "daterange",
+          "start_date": "06.11.2025",
+          "end_date": "26.03.2026",
+          "separator": " - "
+        },
+        "provider": {
+          "id": "934",
+          "label": "Aarhus Bibliotekerne",
+        }
+    }
+```
+
+```json
+    {
+        "id": "8064",
+        "label": "Børnenes grundlovsfest",
+        "field_description_of_duration": "<p>Fra 10:00-13:00</p>",
+        "field_description_of_period": null,
+        "field_description_of_price": null,
+        "field_duration": "3",
+        "field_duration_unit_taxonomy": "timer",
+        "field_registration_description": null,
+        "field_period": {
+            "type": "daterange",
+            "start_date": "04.06.2026",
+            "end_date": "04.06.2026",
+            "separator": " - "
+        },
+        "provider": {
+          "id": "934",
+          "label": "Aarhus Bibliotekerne",
+        }
+    },
+```
+
+Disse er umulige at omsætte til begivenheder på `www.aakb.dk` da der ikke
+
+*\* Jeg tillod mig at slette irrelevante dele af begivenhederne fordi de var
+lange*
+
 ## Vores indtryk af opgaven efter snak med Mikkel Gammelgaard
 
 Mikkel Gammelgaard hjalp os med at forstå arbejdsgangen lidt tydeligere, og vi
