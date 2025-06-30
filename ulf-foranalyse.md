@@ -6,9 +6,7 @@ som derefter kopieres til `www.aakb.dk`.
 
 ## Konsekvens
 
-**Hvis det er en forudsætning**, at `www.ulfiaarhus.dk` skal henvise til
-`www.aakb.dk` inden der viderestilles til pretix, så kan denne løsning ikke lade
-sig gøre
+**Hvis det er en forudsætning**, at man skal gå via `www.aakb.dk` for at købe billet så kan det ikke lade sig gøre at `www.ulfiaarhus.dk` er stedet hvor man opretter begivenheder, da man i sagens natur ikke kan henvise til uoprettede begivenheder.
 
 ## Opgaven
 
