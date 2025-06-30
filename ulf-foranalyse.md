@@ -20,16 +20,18 @@ importeres i `www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
 
 ## Estimater
 
-Alt i alt 307 timer.
+Alt i alt 312 timer.
 
 | Timer     | Beskrivelse                                                                                                                                |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |
 | 25 timer  | Sparring: code review og general vidensdeling                                                                                              |
-| 20 timer  | Konfiguration                                                                                                                              |
+| 25 timer  | Integration i DPL CMS                                                                                                                      |
+| x timer   | Dokumentation af løsningen                                                                                                                 |
 | 50 timer  | **Bogholderi**: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |
 | 100 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål og har **høj usikkerhed**: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? |
 | 100 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data, **høj usikkerhed** |
+| x timer | Projektledelse                                                                                                                               |
 
 ### Eksempler på ustruktureret data
 
