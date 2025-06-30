@@ -22,15 +22,15 @@ importeres i `www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
 
 Alt i alt 312 timer.
 
-| Timer     | Beskrivelse                                                                                                                                |
-|-----------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |
-| 25 timer  | Sparring: code review og general vidensdeling                                                                                              |
-| 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |                                                                                                                     |
-| x timer   | Dokumentation af løsningen                                                                                                                 |
-| 100 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål og har **høj usikkerhed**: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? |
-| 100 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data, **høj usikkerhed** |
-| x timer | Projektledelse                                                                                                                               |
+| Timer     | Beskrivelse                                                                                                                                | Usikkerhed |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-----|
+| 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |Lav |
+| 25 timer  | Sparring: code review og general vidensdeling                                                                                              |Lav |
+| 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |   Lav |                                                                                                                  |
+| x timer   | Dokumentation af løsningen                                                                                                                 | Lav |
+| 100 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? | Høj |
+| 100 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data  | Høj |
+| x timer | Projektledelse                                                                                                                               | Lav |
 
 ### Eksempler på ustruktureret data
 
