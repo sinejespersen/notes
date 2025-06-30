@@ -4,13 +4,13 @@ Undersøgelse af Ulf som datakilde til oprettelse af begivenheder i Aakb. Den
 ønskede arbejdsgang er, at man opretter et begivenhed på `www.ulfiaarhus.dk`,
 som derefter kopieres til `www.aakb.dk`.
 
-## Konsekvens
+## Konsekvens ved at overføre data fra `www.ulfiaarhus.dk` til `www.aakb.dk`
 
 **Hvis det er en forudsætning**, at man skal gå via `www.aakb.dk` for at købe billet så kan det ikke lade sig gøre at `www.ulfiaarhus.dk` er stedet hvor man opretter begivenheder, da man i sagens natur ikke kan henvise til uoprettede begivenheder.
 
 ## Opgavens forudsætning
 
-Derudover at data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal
+Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal
 importeres i `www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
 
 1. med fejl i tidsrummet (og muligvis andre steder)
