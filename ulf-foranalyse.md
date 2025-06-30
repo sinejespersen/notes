@@ -20,7 +20,7 @@ importeres i `www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
 
 ## Estimater
 
-Alt i alt 312 timer.
+Alt i alt 342 timer.
 
 | Timer     | Beskrivelse                                                                                                                                | Usikkerhed |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-----|
