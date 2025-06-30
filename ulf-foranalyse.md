@@ -4,7 +4,7 @@ Undersøgelse af Ulf som datakilde til oprettelse af begivenheder i Aakb. Den
 ønskede arbejdsgang er, at man opretter et begivenhed på `www.ulfiaarhus.dk`,
 som derefter kopieres til `www.aakb.dk`.
 
-## Forudsætning
+## Konsekvens
 
 **Hvis det er en forudsætning**, at `www.ulfiaarhus.dk` skal henvise til
 `www.aakb.dk` inden der viderestilles til pretix, så kan denne løsning ikke lade
