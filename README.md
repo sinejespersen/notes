@@ -1,1 +1,3 @@
-# notes
+# Notes
+
+Notes and stuff
