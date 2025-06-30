@@ -6,12 +6,15 @@ som derefter kopieres til `www.aakb.dk`.
 
 ## Konsekvens ved at overføre data fra `www.ulfiaarhus.dk` til `www.aakb.dk`
 
-**Hvis det er en forudsætning**, at man skal gå via `www.aakb.dk` for at købe billet så kan det ikke lade sig gøre at `www.ulfiaarhus.dk` er stedet hvor man opretter begivenheder, da man i sagens natur ikke kan henvise til uoprettede begivenheder.
+**Hvis det er en forudsætning**, at man skal gå via `www.aakb.dk` for at købe
+billet så kan det ikke lade sig gøre at `www.ulfiaarhus.dk` er stedet hvor man
+opretter begivenheder, da man i sagens natur ikke kan henvise til uoprettede
+begivenheder.
 
 ## Opgavens forudsætning
 
-Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal
-importeres i `www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
+Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
+`www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
 
 1. med fejl i tidsrummet (og muligvis andre steder)
 2. med krav om at de som opretter begivenheder på `www.ulfiaarhus.dk` følger
@@ -87,10 +90,9 @@ Den tilsvarende begivenhed i aakb.dk:
 Ovenstående to eksempler viser udfordringen med at konvertere fra
 `www.ulfiaarhus.dk`-data til `www.aakb.dk`-data.
 
-
-Nedenstående er to forskellige begivenheder fra
-ulf-apiet, med providerid 934 (Aarhus Bibliotekerne), som vi har en forståelse
-af er det data som angår ITK Dev.
+Nedenstående er to forskellige begivenheder fra ulf-apiet, med providerid 934
+(Aarhus Bibliotekerne), som vi har en forståelse af er det data som angår ITK
+Dev.
 
 I nedenstående data er der ikke datoer for de to events. I det ene eksempel
 (8064) kan man gætte at det foregår d. 04.06.2026, i det andet eksempel (8002)
@@ -176,4 +178,3 @@ Der skal undersøges om
 - `www.ulfiaarhus.dk` har et post/put api
 - arbejdsgangen med at sende begivenheder til godkendelse skal stadig være
   håndholdt
-
