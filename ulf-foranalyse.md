@@ -23,18 +23,18 @@ Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
 
 ## Estimater
 
-Alt i alt 342 timer.
+Alt i alt 397 timer.
 
 | Timer     | Beskrivelse                                                                                                                                | Usikkerhed |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |Lav |
 | 25 timer  | Sparring: code review og general vidensdeling                                                                                              |Lav |
 | 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |   Lav |                                                                                                                  |
-| x timer   | Dokumentation af løsningen                                                                                                                 | Lav |
+| 30 timer   | Dokumentation af løsningen                                                                                                                 | Lav |
 | 30 timer  | Møder om data/oprettelsesflow                                                                                                                 | Lav |
 | 100 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? | Høj |
 | 100 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data  | Høj |
-| x timer | Projektledelse                                                                                                                               | Lav |
+| 50 timer | Projektledelse                                                                                                                               | Lav |
 
 ### Eksempler på ustruktureret data
 
