@@ -9,7 +9,7 @@ som derefter kopieres til `www.aakb.dk`.
 **Hvis det er en forudsætning**, at man skal gå via `www.aakb.dk` for at købe
 billet så kan det ikke lade sig gøre at `www.ulfiaarhus.dk` er stedet hvor man
 opretter begivenheder, da man i sagens natur ikke kan henvise til uoprettede
-begivenheder.
+begivenheder (note: dette er accepteret på møde d. 14. august).
 
 ## Opgavens forudsætning
 
@@ -23,8 +23,6 @@ Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
 
 ## Estimater
 
-Alt i alt 397 timer.
-
 | Timer     | Beskrivelse                                                                                                                                | Usikkerhed |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |Lav |
@@ -32,8 +30,8 @@ Alt i alt 397 timer.
 | 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |   Lav |                                                                                                                  |
 | 30 timer   | Dokumentation af løsningen                                                                                                                 | Lav |
 | 30 timer  | Møder om data/oprettelsesflow                                                                                                                 | Lav |
-| 100 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? | Høj |
-| 100 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data  | Høj |
+| 30-200 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? | Høj |
+| 100-300 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data  | Høj |
 | 50 timer | Projektledelse                                                                                                                               | Lav |
 
 ### Eksempler på ustruktureret data
@@ -151,30 +149,3 @@ det formål feltet er tiltænkt.
 ```
 
 Disse er umulige at omsætte til begivenheder på `www.aakb.dk` da der ikke
-
-## Vores indtryk af opgaven efter snak med Mikkel Gammelgaard
-
-Mikkel Gammelgaard hjalp os med at forstå arbejdsgangen lidt tydeligere, og vi
-fik indtryk af, at den arbejdsgang kunden i virkeligheden ville få mest ud af
-er, at oprette begivenheder i `www.aakb.dk` som herefter kopieres til
-`www.ulfiaarhus.dk`.
-
-Når man opretter begivenheder på `www.aakb.dk` får man struktureret data, og
-dette er betydeligt nemmere at arbejde med end ustruktureret data.
-
-Som Mikkel udlægger arbejdsgangen er den følgende
-
-1. Opret begivenhed og datoer i pretix
-2. Opret begivenhed i `www.aakb.dk`
-3. Opret begivenhed i `www.ulfiaarhus.dk`
-
-Ved at lægge for med at oprette i `www.aakb.dk`, vil man kunne få gavn af
-integrationen med pretix og dermed slippe for den manuelle oprettelse i pretix.
-
-### Udfordringer ved denne løsning
-
-Der skal undersøges om
-
-- `www.ulfiaarhus.dk` har et post/put api
-- arbejdsgangen med at sende begivenheder til godkendelse skal stadig være
-  håndholdt
