@@ -26,7 +26,7 @@ Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
 | Timer     | Beskrivelse                                                                                                                                | Usikkerhed |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | 50 timer | Projektledelse                                                                                                                               | Lav |
-| 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |Lav |
+| 15 timer  | Opsætning af udviklingsmiljø                                                                                                               |Lav |
 | 25 timer  | Sparring: code review og general vidensdeling                                                                                              |Lav |
 | 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |   Lav |                                                                                                                  |
 | 30 timer   | Dokumentation af løsningen                                                                                                                 | Lav |
