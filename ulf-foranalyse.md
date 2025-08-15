@@ -30,8 +30,9 @@ Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
 | 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |   Lav |                                                                                                                  |
 | 30 timer   | Dokumentation af løsningen                                                                                                                 | Lav |
 | 30 timer  | Møder om data/oprettelsesflow                                                                                                                 | Lav |
-| 30-200 timer | **Feedback og tests**: Denne del dækker over mange spørgsmål: har vi forstået/mappet data korrekt, er begivenheder oprettet som forventet, eventuelle afvigelser der opdages undervejs, opretter de forskellige brugere begivenheder forskelligt? | Høj |
-| 100-250 timer | **Strategi for databehandling**: Denne del dækker over omsætning af forplumret data til struktureret data - her ved vi at tidspunkter bliver et problem, og ud fra gennemgang af data ser vi at der kan være andre potentielle problemer ved omsætning af data  | Høj |
+| 15 timer | Skabeloner til dataoprettelse i samarbejde med Aarhus Bibliotekerne | Lav |
+| 40 timer | Udviklingsarbejde med parsing af skabeloner | Mellem |
+| 40 timer | Feedback/tests | Høj |
 | 50 timer | Projektledelse                                                                                                                               | Lav |
 
 ### Eksempler på ustruktureret data
