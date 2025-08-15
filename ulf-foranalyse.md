@@ -25,6 +25,7 @@ Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
 
 | Timer     | Beskrivelse                                                                                                                                | Usikkerhed |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------|-----|
+| 50 timer | Projektledelse                                                                                                                               | Lav |
 | 12 timer  | Opsætning af udviklingsmiljø                                                                                                               |Lav |
 | 25 timer  | Sparring: code review og general vidensdeling                                                                                              |Lav |
 | 50 timer  | Integration i DPL CMS: Hvilke begivenheder er oprettet/eventuelle rettelser i begivenheder, oprettelse af tabel til at holde styr på begivenheder |   Lav |                                                                                                                  |
@@ -33,7 +34,6 @@ Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
 | 15 timer | Skabeloner til dataoprettelse i samarbejde med Aarhus Bibliotekerne | Lav |
 | 40 timer | Udviklingsarbejde med parsing af skabeloner | Mellem |
 | 40 timer | Feedback/tests | Høj |
-| 50 timer | Projektledelse                                                                                                                               | Lav |
 
 ### Eksempler på ustruktureret data
 
