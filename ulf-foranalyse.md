@@ -22,9 +22,9 @@ Derudover er det også en forudsætning at der ikke ændres markant i udstillels
 Den største usikkerhed i dette projekt er arbejdet med de ustruktureret data. Ved at introducere faste skabeloner, kan vi minimere opgavens kompleksitet på udvikler niveau, men introducere mere kompleksitet i oprettelsesprocessen, da en skabelon skal følges - Hvorvidt dette er en udfordring, kan vi ikke vurdere.
  
 ### Forudsætninger for opgaven
-- Henvisning fra `ulfiaarhus.dk` til `aakb.dk`, kan ikke lade sig gøre.
-- Begivenheder der skal importeres til `aakb.dk`, skal oprettes i aftalte skabeloner.
-- Udstillingen af data via API på `ulfiaarhus.dk`, ændres ikke.
+- Henvisning fra `ulfiaarhus.dk` til `aakb.dk` kan ikke lade sig gøre.
+- Begivenheder der skal importeres til `aakb.dk` skal oprettes i aftalte skabeloner.
+- Udstillingen af data via API på `ulfiaarhus.dk` ændres ikke.
 - **Nedenstående er estimater**. Dette er vores bud på opgavens omfang og både tage kortere og længere tid. Alle forbrugte timer afregnes.
 
 ## Estimater
