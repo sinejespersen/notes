@@ -11,15 +11,21 @@ billet så kan det ikke lade sig gøre at `www.ulfiaarhus.dk` er stedet hvor man
 opretter begivenheder, da man i sagens natur ikke kan henvise til uoprettede
 begivenheder (note: dette er accepteret på møde d. 14. august).
 
-## Opgavens forudsætning
-
-Data fra ulfiaarhus' api ikke strukturerede, så hvis disse skal importeres i
-`www.aakb.dk` bliver begivenheden i `www.aakb.dk` enten
-
-1. med fejl i tidsrummet (og muligvis andre steder)
-2. med krav om at de som opretter begivenheder på `www.ulfiaarhus.dk` følger
-   nogle ufravigelige regler for opsætning (se [Udfordringer med
-   datakilden](#udfordringer-med-datakilden)).
+## Forudsætninger for estimater
+ 
+Opgavens kompleksitet og potentielle omfang, er dikteret af ustruktureret data, som løbende er beskrevet i denne analyse. Derfor er nedenstående estimater baseret på at der kan indarbejdes en stringent arbejdsgang og faste rammer for oprettelse af ny data i de omtalte systemer.
+ 
+Det er vigtigt at undestrege at grundlaget for estimaterne er baseret på at der kan identificeres 1-3 skabeloner af begivenheder som der skal oprettes på `aakb.dk`. Noget som vi fik opfattelsen af var muligt, til mødet med Mikkel og Lisbeth d. 14. august.
+ 
+Derudover er det også en forudsætning at der ikke ændres markant i udstillelse af data på `ulfiaarhus.dk`, da dette vil kunne ændre markant på opgavens omfang.
+ 
+Den største usikkerhed i dette projekt er arbejdet med de ustruktureret data. Ved at introducere faste skabeloner, kan vi minimere opgavens kompleksitet på udvikler niveau, men introducere mere kompleksitet i oprettelsesprocessen, da en skabelon skal følges - Hvorvidt dette er en udfordring, kan vi ikke vurdere.
+ 
+### Forudsætninger for opgaven
+- Henvisning fra `ulfiaarhus.dk` til `aakb.dk`, kan ikke lade sig gøre.
+- Begivenheder der skal importeres til `aakb.dk`, skal oprettes i aftalte skabeloner.
+- Udstillingen af data via API på `ulfiaarhus.dk`, ændres ikke.
+- **Nedenstående er estimater**. Dette er vores bud på opgavens omfang og både tage kortere og længere tid. Alle forbrugte timer afregnes.
 
 ## Estimater
 
